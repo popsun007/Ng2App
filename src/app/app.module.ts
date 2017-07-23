@@ -13,6 +13,7 @@ import { AngularMaterialModule } from './angular-material/angular-material.modul
 import 'hammerjs';
 
 import { AppComponent } from './app.component';
+import { MaterialsComponent } from './materials-example/materials.component';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 // import { ComponentsModule }         from './components/components.module';
@@ -39,6 +40,7 @@ import { ServersComponent } from './servers/servers.component';
   ],
   declarations: [
     AppComponent,
+    MaterialsComponent,
     ServerComponent,
     ServersComponent,
   ],

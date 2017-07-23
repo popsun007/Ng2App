@@ -4,6 +4,8 @@ import { MdSelectModule } from '@angular/material';
 
 @Component({
   selector: 'app-root',
+  // selector: '[app-root]', // Select by attibute
+  // selector: '.app-root', // Select by class
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
