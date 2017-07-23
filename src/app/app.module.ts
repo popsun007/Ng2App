@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CdkTableModule } from '@angular/cdk';
 import { CommonModule } from '@angular/common';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule, JsonpModule } from '@angular/http';
 import { NgModule } from '@angular/core';
@@ -12,6 +13,8 @@ import { AngularMaterialModule } from './angular-material/angular-material.modul
 import 'hammerjs';
 
 import { AppComponent } from './app.component';
+import { ServerComponent } from './server/server.component';
+import { ServersComponent } from './servers/servers.component';
 // import { ComponentsModule }         from './components/components.module';
 // import { CoreModule }               from './core/core.module';
 // import { UserRoutingModule }        from './routes/user-routing.module';
@@ -23,6 +26,7 @@ import { AppComponent } from './app.component';
     AngularMaterialModule,
     BrowserAnimationsModule,
     CommonModule,
+    FlexLayoutModule,
     FormsModule,
     HttpModule,
     JsonpModule,
@@ -35,6 +39,8 @@ import { AppComponent } from './app.component';
   ],
   declarations: [
     AppComponent,
+    ServerComponent,
+    ServersComponent,
   ],
   providers: [],
   bootstrap: [
